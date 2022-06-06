@@ -1,19 +1,21 @@
- <form action="/action_page.php">
-	 
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<!DOCTYPE html>
+<html>
+<body>
 
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<h2>Radio Buttons</h2>
 
-  <label for="country">Country</label>
-  <select id="country" name="country">
-    <option value="india">India</option>
-    <option value="australia">Australia</option>
-    <option value="canada">Canada</option>
-    <option value="usa">USA</option>
-  </select>
+<p>Choose your favorite Web language:</p>
 
-  <input type="submit" value="Submit">
-</form>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form> 
+
+</body>
+</html>
+
 
