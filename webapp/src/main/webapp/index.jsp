@@ -2,20 +2,20 @@
 <html>
 <body>
 
-<h2>Checkboxes</h2>
-<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+<h2>The name Attribute</h2>
 
 <form action="/action_page.php">
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label><br><br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="John"><br><br>
   <input type="submit" value="Submit">
 </form> 
 
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
 </body>
 </html>
+
 
 
